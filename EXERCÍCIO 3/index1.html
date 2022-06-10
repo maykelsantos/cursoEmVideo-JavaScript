@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos Contar?!</h1>
+    </header>
+    <section>
+        <div>
+            <p>Inicío: <input type="number" name="valorInicio" id="valorInicio"></p>
+            <p>Fim: <input type="number" name="valorFim" id="valorFim"></p>
+            <p>Passo: <input type="number" name="valorPasso" id="valorPasso"></p>
+            <p><input type="button" value="Contar" onclick="contar()"></p>
+        </div>
+        <div id="contador">
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; CursoemVideo</p> <!-- `&copy` é para adicionar o simbolo de copyright -->
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
